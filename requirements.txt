@@ -1,5 +1,5 @@
 
-discord-py
+discord.py
 python-dotenv
 flask
 aiohttp
