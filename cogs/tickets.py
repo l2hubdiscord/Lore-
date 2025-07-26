@@ -36,35 +36,14 @@ class ClaimButton(discord.ui.Button):
         self.disabled = True
         self.label = f"Claimed by {interaction.user.name}"
 
-        view = discord.ui.View(timeout=None)
+        view = self.view
+        if view is None:
+            await interaction.response.send_message("Internal error: lost view reference.", ephemeral=True)
+            return
 
-        for action_row in interaction.message.components:
-            for comp in getattr(action_row, "children", []):  # type: ignore
-                if isinstance(comp, discord.ui.Button) and comp.custom_id == "claim_ticket":
-                    view.add_item(self)
-                elif isinstance(comp, discord.ui.Button):  # type: ignore
-                    view.add_item(discord.ui.Button(
-                        style=comp.style,         # type: ignore
-                        label=comp.label,         # type: ignore
-                        emoji=comp.emoji,         # type: ignore
-                        custom_id=comp.custom_id, # type: ignore
-                        disabled=comp.disabled    # type: ignore
-                    ))
-                elif isinstance(comp, discord.ui.Select):  # σε περίπτωση dropdown
-                    view.add_item(discord.ui.Select(
-                        placeholder=comp.placeholder,  # type: ignore
-                        options=comp.options,          # type: ignore
-                        custom_id=comp.custom_id,      # type: ignore
-                        disabled=comp.disabled         # type: ignore
-                    ))
-
-        view.add_item(CloseButton())  
-
+        # Εδώ ΔΕΝ ξαναφτιάχνουμε view – κρατάμε το persistent
         await interaction.message.edit(view=view)
         await interaction.response.send_message(f"{interaction.user.mention} has claimed this ticket.", ephemeral=False)
-
-
-
 
 
 class CloseButton(discord.ui.Button):
