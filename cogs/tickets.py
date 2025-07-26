@@ -112,7 +112,7 @@ class TicketDropdown(discord.ui.Select):
             min_values=1,
             max_values=1,
             options=options,
-            custom_id="ticket_reason_dropdown"  # ✅ Αυτό λείπει!
+            custom_id="ticket_reason_dropdown"
         )
 
 
@@ -135,7 +135,7 @@ class TicketDropdown(discord.ui.Select):
             await interaction.response.send_message("Required roles not found.", ephemeral=True)
             return
 
-        # Anti-spam: Αν υπάρχει ήδη ticket για τον χρήστη
+        # ✅ Anti-spam: μην ανοίγεις δεύτερο ticket για τον ίδιο user
         existing = discord.utils.find(
             lambda c: c.name.startswith(f"ticket-{member.name.lower()}"),
             guild.text_channels
@@ -173,11 +173,12 @@ class TicketDropdown(discord.ui.Select):
             color=discord.Color.red()
         )
 
-        view = discord.ui.View()
-        view.add_item(ClaimButton())
-        view.add_item(CloseButton())
+        # View με Claim / Close
+        view = ViewWithClaimClose()
 
-        await channel.send(embed=embed, view=view)
+        # Στέλνουμε και ΚΑΤΑΧΩΡΟΥΜΕ το view ως persistent για αυτό το μήνυμα
+        msg = await channel.send(embed=embed, view=view)
+        interaction.client.add_view(view, message_id=msg.id)
 
         # Αν είναι Add Server, στέλνουμε template
         if reason_key == "add_server":
@@ -204,6 +205,7 @@ class TicketDropdown(discord.ui.Select):
 
         # Ephemeral μήνυμα στον χρήστη
         await interaction.response.send_message(f"Your ticket has been created: {channel.mention}", ephemeral=True)
+
 
 
 
