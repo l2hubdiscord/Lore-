@@ -88,6 +88,13 @@ class CloseButton(discord.ui.Button):
         await interaction.channel.delete()
 
 
+class ViewWithClaimClose(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)  # persistent view
+        self.add_item(ClaimButton())
+        self.add_item(CloseButton())
+
+
 
 class TicketDropdown(discord.ui.Select):
     def __init__(self):
