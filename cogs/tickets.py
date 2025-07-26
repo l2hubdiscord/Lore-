@@ -87,13 +87,11 @@ class CloseButton(discord.ui.Button):
         await asyncio.sleep(10)
         await interaction.channel.delete()
 
-
 class ViewWithClaimClose(discord.ui.View):
     def __init__(self):
-        super().__init__(timeout=None)  # persistent view
+        super().__init__(timeout=None)  # Κάνει το view persistent
         self.add_item(ClaimButton())
         self.add_item(CloseButton())
-
 
 
 class TicketDropdown(discord.ui.Select):
@@ -112,7 +110,7 @@ class TicketDropdown(discord.ui.Select):
             min_values=1,
             max_values=1,
             options=options,
-            custom_id="ticket_reason_dropdown"
+            custom_id="ticket_reason_dropdown"  # ✅ Αυτό λείπει!
         )
 
 
@@ -135,7 +133,7 @@ class TicketDropdown(discord.ui.Select):
             await interaction.response.send_message("Required roles not found.", ephemeral=True)
             return
 
-        # ✅ Anti-spam: μην ανοίγεις δεύτερο ticket για τον ίδιο user
+        # Anti-spam: Αν υπάρχει ήδη ticket για τον χρήστη
         existing = discord.utils.find(
             lambda c: c.name.startswith(f"ticket-{member.name.lower()}"),
             guild.text_channels
@@ -173,12 +171,10 @@ class TicketDropdown(discord.ui.Select):
             color=discord.Color.red()
         )
 
-        # View με Claim / Close
         view = ViewWithClaimClose()
-
-        # Στέλνουμε και ΚΑΤΑΧΩΡΟΥΜΕ το view ως persistent για αυτό το μήνυμα
         msg = await channel.send(embed=embed, view=view)
         interaction.client.add_view(view, message_id=msg.id)
+
 
         # Αν είναι Add Server, στέλνουμε template
         if reason_key == "add_server":
@@ -205,7 +201,6 @@ class TicketDropdown(discord.ui.Select):
 
         # Ephemeral μήνυμα στον χρήστη
         await interaction.response.send_message(f"Your ticket has been created: {channel.mention}", ephemeral=True)
-
 
 
 
