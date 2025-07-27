@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 from views import VoteView
 import json
-from cogs.tickets import TicketView
+from cogs.tickets import TicketView, ViewWithClaimClose, reattach_ticket_views
 
 load_dotenv()
 
@@ -20,7 +20,9 @@ SERVERS_FILE = "servers.json"
 
 @bot.event
 async def on_ready():
-    bot.add_view(TicketView())
+    bot.add_view(TicketView())          # Dropdown
+    bot.add_view(ViewWithClaimClose())  # Buttons Claim/Close
+    await reattach_ticket_views(bot)    # <-- προσθήκη εδώ
     print(f"✅ Bot is online as {bot.user}")
 
     # Επανεγγραφή κουμπιών σε περίπτωση restart
