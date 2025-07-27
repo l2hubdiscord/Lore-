@@ -1,6 +1,38 @@
 import discord
 from discord.ext import commands
 import asyncio
+import json
+import os
+
+TICKETS_FILE = "tickets.json"
+
+def load_tickets():
+    if not os.path.exists(TICKETS_FILE):
+        return []
+    with open(TICKETS_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def save_tickets(tickets):
+    with open(TICKETS_FILE, "w", encoding="utf-8") as f:
+        json.dump(tickets, f, indent=4)
+
+def add_ticket(channel_id: int, message_id: int):
+    tickets = load_tickets()
+    if not any(t['message_id'] == message_id for t in tickets):
+        tickets.append({"channel_id": channel_id, "message_id": message_id})
+        save_tickets(tickets)
+
+async def reattach_ticket_views(bot):
+    tickets = load_tickets()
+    for t in tickets:
+        channel = bot.get_channel(t["channel_id"])
+        if isinstance(channel, discord.TextChannel):
+            try:
+                msg = await channel.fetch_message(t["message_id"])
+                await msg.edit(view=ViewWithClaimClose())
+            except Exception as e:
+                print(f"❌ Failed to reattach ticket {t}: {e}")
+
 
 MODERATOR_ROLE_ID = 1392795214397050971
 ADMIN_USER_ID = 374615142723485698
@@ -152,8 +184,8 @@ class TicketDropdown(discord.ui.Select):
 
         view = ViewWithClaimClose()
         msg = await channel.send(embed=embed, view=view)
+        add_ticket(channel.id, msg.id)  
         interaction.client.add_view(view, message_id=msg.id)
-
 
         # Αν είναι Add Server, στέλνουμε template
         if reason_key == "add_server":
