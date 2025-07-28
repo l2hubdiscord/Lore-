@@ -186,10 +186,13 @@ class LeaderboardCog(commands.Cog):
     async def on_ready(self):
         if not self.refresh_leaderboard_daily.is_running():
             self.refresh_leaderboard_daily.start()
+            print("✅ Started refresh_leaderboard_daily")
         if not self.reset_votes_loop.is_running():
             self.reset_votes_loop.start()
+            print("✅ Started reset_votes_loop")
         if not self.reset_voter_roles.is_running():
             self.reset_voter_roles.start()
+            print("✅ Started reset_voter_roles")
 
 
 
