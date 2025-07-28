@@ -2,6 +2,7 @@
 import discord
 from discord.ext import commands, tasks
 import datetime
+from zoneinfo import ZoneInfo
 import json
 import os
 from utils import generate_embed
@@ -49,55 +50,75 @@ class LeaderboardCog(commands.Cog):
         self.bot = bot
         self.last_refresh_date = None
         self.last_reset_date = None
+        self.VOTER_ROLE_NAME = "✅ Voter"
 
+
+    # ------------------ PRIVATE REFRESH FUNCTION ------------------
+    async def _refresh_leaderboard(self, guild, channel):
+        try:
+            await channel.purge()
+            all_servers = load_servers()
+            all_votes = load_votes()
+
+            # Ενημέρωση ψήφων
+            for s in all_servers:
+                s["votes"] = all_votes.get(s["name"], {}).get("total", 0)
+
+            premium_servers = [s for s in all_servers if s.get("premium")]
+            non_premium_servers = [s for s in all_servers if not s.get("premium")]
+
+            sorted_non_premiums = sorted(
+                non_premium_servers, key=lambda x: (-x["votes"], x["name"].lower())
+            )
+
+            for idx, server in enumerate(sorted_non_premiums):
+                server["rank"] = idx + 1
+
+            sorted_non_premiums.reverse()
+            final_list = sorted_non_premiums + premium_servers
+
+            # Αποστολή embeds
+            for server in final_list:
+                embed = generate_embed(server, context="leaderboard")
+                message = await channel.send(embed=embed)
+                server["leaderboard_message_id"] = message.id
+
+            save_servers(all_servers)
+            print(f"[{datetime.datetime.now()}] Leaderboard refreshed in {guild.name}")
+
+        except Exception as e:
+            print(f"[ERROR] Leaderboard refresh failed: {e}")
+
+
+    # ------------------ COMMAND ------------------
     @commands.command()
     @commands.has_permissions(administrator=True)
     async def refreshleaderboard(self, ctx):
-        leaderboard_channel = discord.utils.get(ctx.guild.text_channels, name=LEADERBOARD_CHANNEL_NAME)
+        leaderboard_channel = discord.utils.get(
+            ctx.guild.text_channels, name=LEADERBOARD_CHANNEL_NAME
+        )
         if not leaderboard_channel:
-            await ctx.send("❌ Δεν βρέθηκε το κανάλι 🥇︱leaderboards.")
+            await ctx.send(f"❌ Leaderboard channel '{LEADERBOARD_CHANNEL_NAME}' not found.")
             return
 
-        await leaderboard_channel.purge()
+        await self._refresh_leaderboard(ctx.guild, leaderboard_channel)
+        await ctx.send("✅ Leaderboard refreshed.", delete_after=5)
 
-        all_servers = load_servers()
-        all_votes = load_votes()
 
-        for s in all_servers:
-            s["votes"] = all_votes.get(s["name"], {}).get("total", 0)
-
-        premium_servers = [s for s in all_servers if s.get("premium")]
-        non_premium_servers = [s for s in all_servers if not s.get("premium")]
-
-        sorted_non_premiums = sorted(non_premium_servers, key=lambda x: (-x["votes"], x["name"].lower()))
-        for idx, server in enumerate(sorted_non_premiums):
-            server["rank"] = idx + 1
-
-        sorted_non_premiums.reverse()
-        final_list = sorted_non_premiums + premium_servers
-
-        for server in final_list:
-            embed = generate_embed(server, context="leaderboard")
-            message = await leaderboard_channel.send(embed=embed)
-            server["leaderboard_message_id"] = message.id
-
-        save_servers(all_servers)
-
-    @tasks.loop(minutes=1)
-    async def update_leaderboard_loop(self):
+    # ------------------ DAILY LOOP ------------------
+    @tasks.loop(time=datetime.time(hour=6, minute=0, tzinfo=ZoneInfo("Europe/Athens")))
+    async def refresh_leaderboard_daily(self):
         await self.bot.wait_until_ready()
-        now = datetime.datetime.now()
-        today = now.date()
+        for guild in self.bot.guilds:
+            channel = discord.utils.get(guild.text_channels, name=LEADERBOARD_CHANNEL_NAME)
+            if channel:
+                await self._refresh_leaderboard(guild, channel)
+            else:
+                print(f"[{guild.name}] Leaderboard channel '{LEADERBOARD_CHANNEL_NAME}' not found.")
+            print(f"[{datetime.datetime.now()}] ✅ Daily leaderboard task executed")
 
-        if now.hour == 6 and now.minute == 0:
-            if self.last_refresh_date != today:
-                for guild in self.bot.guilds:
-                    channel = discord.utils.get(guild.text_channels, name=LEADERBOARD_CHANNEL_NAME)
-                    if channel:
-                        ctx = await self.bot.get_context(await channel.send("🔄"))
-                        await self.refreshleaderboard(ctx)
-                self.last_refresh_date = today
 
+    # ------------------ RESET VOTES LOOP ------------------
     @tasks.loop(minutes=10)
     async def reset_votes_loop(self):
         now = datetime.datetime.now()
@@ -118,8 +139,7 @@ class LeaderboardCog(commands.Cog):
             for guild in self.bot.guilds:
                 channel = discord.utils.get(guild.text_channels, name=LEADERBOARD_CHANNEL_NAME)
                 if channel:
-                    ctx = await self.bot.get_context(await channel.send("🔄"))
-                    await self.refreshleaderboard(ctx)
+                    await self._refresh_leaderboard(guild, channel)
 
             # Ενημέρωση των embeds στο 📜︱server-list
             for guild in self.bot.guilds:
@@ -136,19 +156,42 @@ class LeaderboardCog(commands.Cog):
                         except Exception:
                             continue
 
-
             self.last_reset_date = today
+            print(f"[{datetime.datetime.now()}] ✅ Monthly vote reset task executed")
+
 
     @reset_votes_loop.before_loop
     async def before_reset_votes(self):
         await self.bot.wait_until_ready()
 
+    @tasks.loop(hours=24)
+    async def reset_voter_roles(self):
+        await self.bot.wait_until_ready()
+        for guild in self.bot.guilds:
+            voter_role = discord.utils.get(guild.roles, name=self.VOTER_ROLE_NAME)
+            if not voter_role:
+                continue
+            for member in guild.members:
+                if voter_role in member.roles:
+                    try:
+                        await member.remove_roles(voter_role)
+                        print(f"[{guild.name}] Removed Voter role from {member.display_name}")
+                    except Exception as e:
+                        print(f"[{guild.name}] Error removing role from {member.display_name}: {e}")
+
+
+
+    # ------------------ ON_READY ------------------
     @commands.Cog.listener()
     async def on_ready(self):
-        if not self.update_leaderboard_loop.is_running():
-            self.update_leaderboard_loop.start()
+        if not self.refresh_leaderboard_daily.is_running():
+            self.refresh_leaderboard_daily.start()
         if not self.reset_votes_loop.is_running():
             self.reset_votes_loop.start()
+        if not self.reset_voter_roles.is_running():
+            self.reset_voter_roles.start()
+
+
 
 async def setup(bot):
     await bot.add_cog(LeaderboardCog(bot))

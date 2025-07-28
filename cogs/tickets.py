@@ -17,10 +17,12 @@ def save_tickets(tickets):
         json.dump(tickets, f, indent=4)
 
 def add_ticket(channel_id: int, message_id: int):
+    print(f"DEBUG: Adding ticket {channel_id} / {message_id}")
     tickets = load_tickets()
     if not any(t['message_id'] == message_id for t in tickets):
         tickets.append({"channel_id": channel_id, "message_id": message_id})
         save_tickets(tickets)
+        print("DEBUG: Ticket saved to tickets.json")
 
 async def reattach_ticket_views(bot):
     tickets = load_tickets()
