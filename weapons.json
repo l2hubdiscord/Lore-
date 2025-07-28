@@ -1,0 +1,87 @@
+{
+  "weapons": [
+    {
+      "grade": "Apprentice",
+      "items": [
+        {
+          "name": "Apprentice Weapon",
+          "attack": 4
+        }
+      ]
+    },
+    {
+      "grade": "No Grade",
+      "items": [
+        {
+          "name": "NG Weapon",
+          "attack": 9
+        }
+      ]
+    },
+    {
+      "grade": "D",
+      "items": [
+        {
+          "name": "D Weapon 1",
+          "attack": 0
+        },
+        {
+          "name": "D Weapon 2",
+          "attack": 0
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "items": [
+        {
+          "name": "C Weapon 1",
+          "attack": 0
+        },
+        {
+          "name": "C Weapon 2",
+          "attack": 0
+        }
+      ]
+    },
+    {
+      "grade": "B",
+      "items": [
+        {
+          "name": "B Weapon 1",
+          "attack": 0
+        },
+        {
+          "name": "B Weapon 2",
+          "attack": 0
+        }
+      ]
+    },
+    {
+      "grade": "A",
+      "items": [
+        {
+          "name": "A Weapon 1",
+          "attack": 0
+        },
+        {
+          "name": "A Weapon 2",
+          "attack": 0
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "items": [
+        {
+          "name": "S Weapon 1",
+          "attack": 0
+        },
+        {
+          "name": "S Weapon 2",
+          "attack": 0
+        }
+      ]
+    }
+  ]
+}

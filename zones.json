@@ -1,0 +1,380 @@
+{
+  "zones": [
+    {
+      "name": "Starting Village",
+      "lvl_min": 1,
+      "lvl_max": 10,
+      "mobs": [
+        {
+          "name": "Gremlin",
+          "lvl": 1
+        },
+        {
+          "name": "Red Keltir",
+          "lvl": 2
+        },
+        {
+          "name": "Elder Keltir",
+          "lvl": 3
+        },
+        {
+          "name": "Kasha Wolf",
+          "lvl": 4
+        },
+        {
+          "name": "Goblin",
+          "lvl": 5
+        },
+        {
+          "name": "Utuku Orc",
+          "lvl": 6
+        },
+        {
+          "name": "Imp Elder",
+          "lvl": 7
+        },
+        {
+          "name": "Green Dryad",
+          "lvl": 8
+        },
+        {
+          "name": "Orc Fighter",
+          "lvl": 9
+        },
+        {
+          "name": "Blade Bat",
+          "lvl": 10
+        }
+      ]
+    },
+    {
+      "name": "Gludio",
+      "lvl_min": 11,
+      "lvl_max": 20,
+      "mobs": [
+        {
+          "name": "Felim Lizardman",
+          "lvl": 11
+        },
+        {
+          "name": "Red Bear",
+          "lvl": 12
+        },
+        {
+          "name": "Vuku Orc",
+          "lvl": 13
+        },
+        {
+          "name": "Ruin Zombie",
+          "lvl": 14
+        },
+        {
+          "name": "Shield Skeleton",
+          "lvl": 15
+        },
+        {
+          "name": "Ratman Spy",
+          "lvl": 16
+        },
+        {
+          "name": "Moonstone Beast",
+          "lvl": 17
+        },
+        {
+          "name": "Tracker Skeleton Leader",
+          "lvl": 18
+        },
+        {
+          "name": "Skeleton Scout",
+          "lvl": 19
+        },
+        {
+          "name": "Ruin Bat",
+          "lvl": 20
+        }
+      ]
+    },
+    {
+      "name": "Dion",
+      "lvl_min": 21,
+      "lvl_max": 30,
+      "mobs": [
+        {
+          "name": "Hobgoblin",
+          "lvl": 21
+        },
+        {
+          "name": "Bloody Bee",
+          "lvl": 22
+        },
+        {
+          "name": "Tumran Bugbear",
+          "lvl": 23
+        },
+        {
+          "name": "Dire Wolf",
+          "lvl": 24
+        },
+        {
+          "name": "Mandragora Blossom",
+          "lvl": 25
+        },
+        {
+          "name": "Monster Eye Destroyer",
+          "lvl": 26
+        },
+        {
+          "name": "Ol Mahum Raider",
+          "lvl": 27
+        },
+        {
+          "name": "Neer Crawler",
+          "lvl": 28
+        },
+        {
+          "name": "Marsh Stakato",
+          "lvl": 29
+        },
+        {
+          "name": "Silenos",
+          "lvl": 30
+        }
+      ]
+    },
+    {
+      "name": "Giran",
+      "lvl_min": 31,
+      "lvl_max": 40,
+      "mobs": [
+        {
+          "name": "Breka Orc",
+          "lvl": 31
+        },
+        {
+          "name": "Harpy",
+          "lvl": 32
+        },
+        {
+          "name": "Turak Bugbear Warrior",
+          "lvl": 33
+        },
+        {
+          "name": "Medusa",
+          "lvl": 34
+        },
+        {
+          "name": "Wyrm",
+          "lvl": 35
+        },
+        {
+          "name": "Guardian Basilisk",
+          "lvl": 36
+        },
+        {
+          "name": "Road Scavenger",
+          "lvl": 37
+        },
+        {
+          "name": "Fettered Soul",
+          "lvl": 38
+        },
+        {
+          "name": "Windsus",
+          "lvl": 39
+        },
+        {
+          "name": "Grandis",
+          "lvl": 40
+        }
+      ]
+    },
+    {
+      "name": "Oren",
+      "lvl_min": 41,
+      "lvl_max": 50,
+      "mobs": [
+        {
+          "name": "Timak Orc Archer",
+          "lvl": 41
+        },
+        {
+          "name": "Enchanted Stone Golem",
+          "lvl": 42
+        },
+        {
+          "name": "Rotting tree",
+          "lvl": 43
+        },
+        {
+          "name": "Enchanted Gargoyle",
+          "lvl": 44
+        },
+        {
+          "name": "Shackle",
+          "lvl": 45
+        },
+        {
+          "name": "Formor Elder",
+          "lvl": 46
+        },
+        {
+          "name": "Spore Zombie",
+          "lvl": 47
+        },
+        {
+          "name": "Tarlk Bugbear Warrior",
+          "lvl": 48
+        },
+        {
+          "name": "Tarlk Bugbear High Warrior",
+          "lvl": 49
+        },
+        {
+          "name": "Ol Mahum Transcender",
+          "lvl": 50
+        }
+      ]
+    },
+    {
+      "name": "Aden",
+      "lvl_min": 51,
+      "lvl_max": 60,
+      "mobs": [
+        {
+          "name": "Soldier of Grief",
+          "lvl": 51
+        },
+        {
+          "name": "Taik Orc Seeker",
+          "lvl": 52
+        },
+        {
+          "name": "Roving Soul",
+          "lvl": 53
+        },
+        {
+          "name": "Marsh Stalker",
+          "lvl": 54
+        },
+        {
+          "name": "Halingka",
+          "lvl": 55
+        },
+        {
+          "name": "Doom Scout",
+          "lvl": 56
+        },
+        {
+          "name": "Paliote",
+          "lvl": 57
+        },
+        {
+          "name": "Dismal Pole",
+          "lvl": 58
+        },
+        {
+          "name": "Kranrot",
+          "lvl": 59
+        },
+        {
+          "name": "Gamlin",
+          "lvl": 60
+        }
+      ]
+    },
+    {
+      "name": "Rune",
+      "lvl_min": 61,
+      "lvl_max": 70,
+      "mobs": [
+        {
+          "name": "Flash of Splendor",
+          "lvl": 61
+        },
+        {
+          "name": "Wisdom of Splendor",
+          "lvl": 62
+        },
+        {
+          "name": "Corrupted Knight",
+          "lvl": 63
+        },
+        {
+          "name": "Corrupted Guard",
+          "lvl": 64
+        },
+        {
+          "name": "Baby Kookaburra",
+          "lvl": 65
+        },
+        {
+          "name": "Crown of Splendor",
+          "lvl": 66
+        },
+        {
+          "name": "Baby Buffalo",
+          "lvl": 67
+        },
+        {
+          "name": "Splinter Stakato Soldier",
+          "lvl": 68
+        },
+        {
+          "name": "Baby Cougar",
+          "lvl": 69
+        },
+        {
+          "name": "Splinter Stakato Drone",
+          "lvl": 70
+        }
+      ]
+    },
+    {
+      "name": "Goddard",
+      "lvl_min": 71,
+      "lvl_max": 80,
+      "mobs": [
+        {
+          "name": "Grendel",
+          "lvl": 71
+        },
+        {
+          "name": "Buffalo Slave",
+          "lvl": 72
+        },
+        {
+          "name": "Mob L73",
+          "lvl": 73
+        },
+        {
+          "name": "Hot Springs Flava",
+          "lvl": 74
+        },
+        {
+          "name": "Disciples of Punishment",
+          "lvl": 75
+        },
+        {
+          "name": "Varka Silenos Footman",
+          "lvl": 76
+        },
+        {
+          "name": "Ketra Orc Footman",
+          "lvl": 77
+        },
+        {
+          "name": "Imperial Commander",
+          "lvl": 78
+        },
+        {
+          "name": "Necromancer of Destruction",
+          "lvl": 79
+        },
+        {
+          "name": "Magma Drake",
+          "lvl": 80
+        }
+      ]
+    }
+  ]
+}

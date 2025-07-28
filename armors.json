@@ -1,0 +1,375 @@
+{
+  "armors": [
+    {
+      "grade": "Starting",
+      "sets": [
+        {
+          "name": "Apprentice's Armor",
+          "pieces": {
+            "helmet": {
+              "name": "",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "",
+              "defence": 0
+            },
+            "boots": {
+              "name": "",
+              "defence": 0
+            },
+            "main": {
+              "name": "Apprentice's Armor",
+              "defence": 1
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    },
+    {
+      "grade": "NG",
+      "sets": [
+        {
+          "name": "Devotion Set",
+          "pieces": {
+            "helmet": {
+              "name": "Leather Helmet",
+              "defence": 2
+            },
+            "gloves": {
+              "name": "Leather Gloves",
+              "defence": 1
+            },
+            "boots": {
+              "name": "Low Boots",
+              "defence": 1
+            },
+            "main": {
+              "name": "Armor of Devotion",
+              "defence": 4
+            }
+          },
+          "set_bonus": {
+            "hp_percent": 5,
+            "mp_percent": 10
+          }
+        },
+        {
+          "name": "Cotton Set",
+          "pieces": {
+            "helmet": {
+              "name": "Leather Helmet",
+              "defence": 2
+            },
+            "gloves": {
+              "name": "Short Cotton Gloves",
+              "defence": 1
+            },
+            "boots": {
+              "name": "Cotton Sandals",
+              "defence": 1
+            },
+            "main": {
+              "name": "Cotton Armor",
+              "defence": 4
+            }
+          },
+          "set_bonus": {
+            "defence": 1,
+            "hp_percent": 5
+          }
+        }
+      ]
+    },
+    {
+      "grade": "D",
+      "sets": [
+        {
+          "name": "Manticore Set",
+          "pieces": {
+            "helmet": {
+              "name": "Helmet (D)",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Manticore Skin Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Manticore Skin Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Manticore",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Armor of Compound Set",
+          "pieces": {
+            "helmet": {
+              "name": "Helmet (D)",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Compound Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Compound Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Compound Armor",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Brigandine Set",
+          "pieces": {
+            "helmet": {
+              "name": "Helmet (D)",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Brigandine Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Brigandine Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Brigandine Armor",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "sets": [
+        {
+          "name": "Theca Set",
+          "pieces": {
+            "helmet": {
+              "name": "Great Helmet (C)",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Theca Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Theca Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Theca",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Full Plate Set",
+          "pieces": {
+            "helmet": {
+              "name": "Great Helmet (C)",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Full Plate Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Full Plate Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Full Plate Armor",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    },
+    {
+      "grade": "B",
+      "sets": [
+        {
+          "name": "Blue Wolf Set",
+          "pieces": {
+            "helmet": {
+              "name": "Blue Wolf Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Blue Wolf Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Blue Wolf Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Blue Wolf",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Doom Armor Set",
+          "pieces": {
+            "helmet": {
+              "name": "Doom Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Doom Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Doom Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Doom",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    },
+    {
+      "grade": "A",
+      "sets": [
+        {
+          "name": "Tallum Set",
+          "pieces": {
+            "helmet": {
+              "name": "Tallum Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Tallum Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Tallum Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Tallum",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Dark Crystal Set",
+          "pieces": {
+            "helmet": {
+              "name": "Dark Crystal Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Dark Crystal Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Dark Crystal Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Dark Crystal",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Nightmare Set",
+          "pieces": {
+            "helmet": {
+              "name": "Nightmare Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Nightmare Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Nightmare Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Nightmare",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "sets": [
+        {
+          "name": "Imperial Arcana Set",
+          "pieces": {
+            "helmet": {
+              "name": "Imperial Arcana Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Imperial Arcana Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Imperial Arcana Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Armor of Imperial Arcana",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        },
+        {
+          "name": "Draconic Set",
+          "pieces": {
+            "helmet": {
+              "name": "Draconic Helmet",
+              "defence": 0
+            },
+            "gloves": {
+              "name": "Draconic Gloves",
+              "defence": 0
+            },
+            "boots": {
+              "name": "Draconic Boots",
+              "defence": 0
+            },
+            "main": {
+              "name": "Draconic Armor",
+              "defence": 0
+            }
+          },
+          "set_bonus": {}
+        }
+      ]
+    }
+  ]
+}

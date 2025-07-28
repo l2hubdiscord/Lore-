@@ -12,7 +12,7 @@
     "image": "",
     "premium": false,
     "rank": 43,
-    "message_id": 1398049059964453058,
+    "message_id": 1398797534155116655,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": true,
@@ -23,7 +23,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050023765446788
+    "leaderboard_message_id": 1398983519891357705
   },
   {
     "name": "L2 Tokgame",
@@ -38,7 +38,7 @@
     "image": "",
     "premium": false,
     "rank": 73,
-    "message_id": 1398049061000712374,
+    "message_id": 1398797535295963186,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -49,7 +49,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049907167727679
+    "leaderboard_message_id": 1398983380212908133
   },
   {
     "name": "L2 Exoplanet",
@@ -64,7 +64,7 @@
     "image": "",
     "premium": false,
     "rank": 36,
-    "message_id": 1398049061764075541,
+    "message_id": 1398797536487276555,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -75,7 +75,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050067876941855
+    "leaderboard_message_id": 1398983545325621248
   },
   {
     "name": "L2 Savage",
@@ -90,7 +90,7 @@
     "image": "",
     "premium": false,
     "rank": 66,
-    "message_id": 1398049062812520538,
+    "message_id": 1398797537162301503,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -101,7 +101,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049934334230528
+    "leaderboard_message_id": 1398983410562629703
   },
   {
     "name": "L2 Valkyria",
@@ -116,7 +116,7 @@
     "image": "",
     "premium": false,
     "rank": 75,
-    "message_id": 1398049063856767138,
+    "message_id": 1398797538546552954,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -127,7 +127,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049887488311356
+    "leaderboard_message_id": 1398983376853270620
   },
   {
     "name": "L2 Laneda",
@@ -142,7 +142,7 @@
     "image": "",
     "premium": false,
     "rank": 47,
-    "message_id": 1398049082785665067,
+    "message_id": 1398797539335082122,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -153,7 +153,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050017771651190
+    "leaderboard_message_id": 1398983498794012723
   },
   {
     "name": "L2 Reborn",
@@ -168,7 +168,7 @@
     "image": "",
     "premium": false,
     "rank": 1,
-    "message_id": 1398049084522102954,
+    "message_id": 1398797560256135318,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -179,7 +179,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050229340737556
+    "leaderboard_message_id": 1398983715136208986
   },
   {
     "name": "L2 Romans",
@@ -194,7 +194,7 @@
     "image": "",
     "premium": false,
     "rank": 64,
-    "message_id": 1398049086434840670,
+    "message_id": 1398797560793141290,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -205,7 +205,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049937245081720
+    "leaderboard_message_id": 1398983438270464061
   },
   {
     "name": "Brabos.Club",
@@ -220,7 +220,7 @@
     "image": "",
     "premium": false,
     "rank": 4,
-    "message_id": 1398049088221610075,
+    "message_id": 1398797561912885380,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -231,7 +231,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050207748329684
+    "leaderboard_message_id": 1398983691484663842
   },
   {
     "name": "L2 Skyfury",
@@ -246,7 +246,7 @@
     "image": "",
     "premium": false,
     "rank": 69,
-    "message_id": 1398049089362333897,
+    "message_id": 1398797562705612811,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": true,
@@ -257,7 +257,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049911848829031
+    "leaderboard_message_id": 1398983405668139160
   },
   {
     "name": "L2 Barbarians",
@@ -272,7 +272,7 @@
     "image": "",
     "premium": false,
     "rank": 14,
-    "message_id": 1398049089987547167,
+    "message_id": 1398797563884474574,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -283,7 +283,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050158738014299
+    "leaderboard_message_id": 1398983645477343262
   },
   {
     "name": "L2XB",
@@ -298,7 +298,7 @@
     "image": "",
     "premium": false,
     "rank": 78,
-    "message_id": 1398049108501069925,
+    "message_id": 1398797581810663467,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -309,7 +309,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049885462335602
+    "leaderboard_message_id": 1398983373669531741
   },
   {
     "name": "L2 Craft Club",
@@ -324,7 +324,7 @@
     "image": "",
     "premium": false,
     "rank": 20,
-    "message_id": 1398049109478211758,
+    "message_id": 1398797582742061211,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -335,7 +335,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050128027324601
+    "leaderboard_message_id": 1398983618365231114
   },
   {
     "name": "L2 Infernal Awakening",
@@ -350,7 +350,7 @@
     "image": "",
     "premium": false,
     "rank": 42,
-    "message_id": 1398049110015344642,
+    "message_id": 1398797583932985455,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -361,7 +361,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050044690825368
+    "leaderboard_message_id": 1398983520772161609
   },
   {
     "name": "L2 Reality",
@@ -376,7 +376,7 @@
     "image": "",
     "premium": false,
     "rank": 61,
-    "message_id": 1398049110807810090,
+    "message_id": 1398797585640198195,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -387,7 +387,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049959743590492
+    "leaderboard_message_id": 1398983447929688177
   },
   {
     "name": " Epoch - Middle",
@@ -402,7 +402,7 @@
     "image": "",
     "premium": false,
     "rank": 2,
-    "message_id": 1398049111693066296,
+    "message_id": 1398797586453889104,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -413,7 +413,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050209635893278
+    "leaderboard_message_id": 1398983694374535168
   },
   {
     "name": "L2 Ghostlands",
@@ -428,7 +428,7 @@
     "image": "",
     "premium": false,
     "rank": 38,
-    "message_id": 1398049130835607604,
+    "message_id": 1398797587536150630,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -439,7 +439,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050047970640014
+    "leaderboard_message_id": 1398983543282995280
   },
   {
     "name": "L2 Toogle",
@@ -454,7 +454,7 @@
     "image": "",
     "premium": false,
     "rank": 74,
-    "message_id": 1398049131561226443,
+    "message_id": 1398797607966343280,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -465,7 +465,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049888289296414
+    "leaderboard_message_id": 1398983378698502198
   },
   {
     "name": "L2 Chile",
@@ -480,7 +480,7 @@
     "image": "",
     "premium": false,
     "rank": 18,
-    "message_id": 1398049132219727873,
+    "message_id": 1398797609157791909,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -491,7 +491,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050148399190198
+    "leaderboard_message_id": 1398983640096182322
   },
   {
     "name": "L2 Gremlin",
@@ -506,7 +506,7 @@
     "image": "",
     "premium": false,
     "rank": 41,
-    "message_id": 1398049132924506224,
+    "message_id": 1398797610466410571,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -517,7 +517,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050045697196205
+    "leaderboard_message_id": 1398983539630014484
   },
   {
     "name": "L2 Daft",
@@ -532,7 +532,7 @@
     "image": "",
     "premium": false,
     "rank": 22,
-    "message_id": 1398049133729812671,
+    "message_id": 1398797611623780465,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -543,7 +543,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050126672433353
+    "leaderboard_message_id": 1398983615659900928
   },
   {
     "name": "L2 Adonis",
@@ -558,7 +558,7 @@
     "image": "",
     "premium": false,
     "rank": 9,
-    "message_id": 1398049152872611901,
+    "message_id": 1398797612496457830,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -569,7 +569,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050180816965632
+    "leaderboard_message_id": 1398983668734627901
   },
   {
     "name": "L2 Replica",
@@ -584,7 +584,7 @@
     "image": "",
     "premium": false,
     "rank": 63,
-    "message_id": 1398049154210725920,
+    "message_id": 1398797613951750294,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -595,7 +595,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049937949855755
+    "leaderboard_message_id": 1398983439599931494
   },
   {
     "name": "Mourndusk",
@@ -610,7 +610,7 @@
     "image": "",
     "premium": false,
     "rank": 83,
-    "message_id": 1398049155619749918,
+    "message_id": 1398797633849528395,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -621,7 +621,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049860871258222
+    "leaderboard_message_id": 1398983347828555798
   },
   {
     "name": "L2 Ordinary World",
@@ -636,7 +636,7 @@
     "image": "",
     "premium": false,
     "rank": 56,
-    "message_id": 1398049156999938148,
+    "message_id": 1398797634948567132,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -647,7 +647,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049966403883029
+    "leaderboard_message_id": 1398983473401692242
   },
   {
     "name": "L2 Devil",
@@ -662,7 +662,7 @@
     "image": "",
     "premium": false,
     "rank": 26,
-    "message_id": 1398049157779820606,
+    "message_id": 1398797636273700866,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -673,7 +673,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050103234924644
+    "leaderboard_message_id": 1398983594386653327
   },
   {
     "name": "L2 Death",
@@ -688,7 +688,7 @@
     "image": "",
     "premium": false,
     "rank": 24,
-    "message_id": 1398049158757089281,
+    "message_id": 1398797637435658310,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -699,7 +699,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050124516823110
+    "leaderboard_message_id": 1398983613881651280
   },
   {
     "name": "Lineage2.ms",
@@ -714,7 +714,7 @@
     "image": "",
     "premium": false,
     "rank": 82,
-    "message_id": 1398049178248024136,
+    "message_id": 1398797638379241472,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -725,7 +725,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049861773033542
+    "leaderboard_message_id": 1398983348994707510
   },
   {
     "name": "Darkdragon Club",
@@ -740,7 +740,7 @@
     "image": "",
     "premium": false,
     "rank": 5,
-    "message_id": 1398049179208650923,
+    "message_id": 1398797639226753044,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -751,7 +751,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050205735325819
+    "leaderboard_message_id": 1398983689844686865
   },
   {
     "name": "L2 Eclipse",
@@ -766,7 +766,7 @@
     "image": "",
     "premium": false,
     "rank": 28,
-    "message_id": 1398049179804241970,
+    "message_id": 1398797659942158356,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -777,7 +777,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050101813055548
+    "leaderboard_message_id": 1398983592591229099
   },
   {
     "name": "La2Dream",
@@ -792,7 +792,7 @@
     "image": "",
     "premium": false,
     "rank": 80,
-    "message_id": 1398049180190113858,
+    "message_id": 1398797660953251953,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -803,7 +803,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049866029994176
+    "leaderboard_message_id": 1398983351234461774
   },
   {
     "name": "L2 Lusty",
@@ -818,7 +818,7 @@
     "image": "",
     "premium": false,
     "rank": 50,
-    "message_id": 1398049181603725432,
+    "message_id": 1398797661896970411,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -829,7 +829,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049996372181032
+    "leaderboard_message_id": 1398983496118042744
   },
   {
     "name": "L2 Exodus",
@@ -844,7 +844,7 @@
     "image": "",
     "premium": false,
     "rank": 35,
-    "message_id": 1398049200650063932,
+    "message_id": 1398797663528423504,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -855,7 +855,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050068874924173
+    "leaderboard_message_id": 1398983565764591689
   },
   {
     "name": "L2 Royal",
@@ -870,7 +870,7 @@
     "image": "",
     "premium": false,
     "rank": 65,
-    "message_id": 1398049201308565666,
+    "message_id": 1398797664589447310,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -881,7 +881,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049936062545942
+    "leaderboard_message_id": 1398983431588937769
   },
   {
     "name": "L2 Etina",
@@ -896,7 +896,7 @@
     "image": "",
     "premium": false,
     "rank": 33,
-    "message_id": 1398049201538994410,
+    "message_id": 1398797665885622397,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -907,7 +907,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050070686859356
+    "leaderboard_message_id": 1398983567991902282
   },
   {
     "name": "L2 Elegant",
@@ -922,7 +922,7 @@
     "image": "",
     "premium": false,
     "rank": 30,
-    "message_id": 1398049202675650591,
+    "message_id": 1398797686047637605,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -933,7 +933,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050100332335144
+    "leaderboard_message_id": 1398983570416209982
   },
   {
     "name": "L2 Epic Fail",
@@ -948,7 +948,7 @@
     "image": "",
     "premium": false,
     "rank": 31,
-    "message_id": 1398049203803914241,
+    "message_id": 1398797687301607434,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -959,7 +959,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050093051019320
+    "leaderboard_message_id": 1398983569749184585
   },
   {
     "name": "L2 Lineagedos",
@@ -974,7 +974,7 @@
     "image": "",
     "premium": false,
     "rank": 48,
-    "message_id": 1398049222707642439,
+    "message_id": 1398797688387932301,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -985,7 +985,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050015275913216
+    "leaderboard_message_id": 1398983498093826089
   },
   {
     "name": "L2 Jade",
@@ -1000,7 +1000,7 @@
     "image": "",
     "premium": false,
     "rank": 44,
-    "message_id": 1398049223525535795,
+    "message_id": 1398797688916410410,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1011,7 +1011,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050023031443456
+    "leaderboard_message_id": 1398983519413207091
   },
   {
     "name": "L2 Song Of War",
@@ -1026,7 +1026,7 @@
     "image": "",
     "premium": false,
     "rank": 70,
-    "message_id": 1398049224838615131,
+    "message_id": 1398797691168882850,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1037,7 +1037,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049911198580816
+    "leaderboard_message_id": 1398983404262916246
   },
   {
     "name": "L2 Axis",
@@ -1052,7 +1052,7 @@
     "image": "",
     "premium": false,
     "rank": 13,
-    "message_id": 1398049226092449945,
+    "message_id": 1398797693731737631,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": true,
@@ -1063,7 +1063,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050159656571023
+    "leaderboard_message_id": 1398983646538498121
   },
   {
     "name": "L2 BOHPTS",
@@ -1078,7 +1078,7 @@
     "image": "",
     "premium": false,
     "rank": 17,
-    "message_id": 1398049226944020612,
+    "message_id": 1398797712933130250,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1089,7 +1089,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050149745426453
+    "leaderboard_message_id": 1398983641027182732
   },
   {
     "name": "L2 Eirin",
@@ -1104,7 +1104,7 @@
     "image": "",
     "premium": false,
     "rank": 29,
-    "message_id": 1398049227724029958,
+    "message_id": 1398797714283823256,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1115,7 +1115,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050100734853203
+    "leaderboard_message_id": 1398983591626539009
   },
   {
     "name": "L2 Era",
@@ -1130,7 +1130,7 @@
     "image": "",
     "premium": false,
     "rank": 32,
-    "message_id": 1398049248389365813,
+    "message_id": 1398797715630063846,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -1141,7 +1141,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050089536065590
+    "leaderboard_message_id": 1398983568985690123
   },
   {
     "name": "L2 Zariche",
@@ -1156,7 +1156,7 @@
     "image": "",
     "premium": false,
     "rank": 77,
-    "message_id": 1398049249467568258,
+    "message_id": 1398797716347293718,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1167,7 +1167,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049885877436578
+    "leaderboard_message_id": 1398983374579961907
   },
   {
     "name": "L2 Thalassic",
@@ -1182,7 +1182,7 @@
     "image": "",
     "premium": false,
     "rank": 72,
-    "message_id": 1398049250150973441,
+    "message_id": 1398797717576355971,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1193,7 +1193,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049908560232589
+    "leaderboard_message_id": 1398983400366276691
   },
   {
     "name": "L2 Nidel",
@@ -1208,7 +1208,7 @@
     "image": "",
     "premium": false,
     "rank": 54,
-    "message_id": 1398049251560394845,
+    "message_id": 1398797718364753961,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1219,7 +1219,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049992312098916
+    "leaderboard_message_id": 1398983475314429962
   },
   {
     "name": "L2 OVC",
@@ -1234,7 +1234,7 @@
     "image": "",
     "premium": false,
     "rank": 58,
-    "message_id": 1398049254110527760,
+    "message_id": 1398797738732163244,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1245,7 +1245,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049963069542471
+    "leaderboard_message_id": 1398983451230601346
   },
   {
     "name": "L2 Gold",
@@ -1260,7 +1260,7 @@
     "image": "",
     "premium": false,
     "rank": 40,
-    "message_id": 1398049254630752422,
+    "message_id": 1398797740124668054,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1271,7 +1271,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050046146117743
+    "leaderboard_message_id": 1398983540854751304
   },
   {
     "name": "L2 Kain",
@@ -1286,7 +1286,7 @@
     "image": "",
     "premium": false,
     "rank": 45,
-    "message_id": 1398049274503106683,
+    "message_id": 1398797740837703790,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1297,7 +1297,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050021902913637
+    "leaderboard_message_id": 1398983518436065313
   },
   {
     "name": "L2 Argento",
@@ -1312,7 +1312,7 @@
     "image": "",
     "premium": false,
     "rank": 11,
-    "message_id": 1398049274884788427,
+    "message_id": 1398797741542342738,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1323,7 +1323,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050179353018419
+    "leaderboard_message_id": 1398983666797121538
   },
   {
     "name": "BAZA",
@@ -1338,7 +1338,7 @@
     "image": "",
     "premium": false,
     "rank": 3,
-    "message_id": 1398049276298530856,
+    "message_id": 1398797742439927859,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -1349,7 +1349,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050208796901436
+    "leaderboard_message_id": 1398983693368037548
   },
   {
     "name": "L2 Viserion",
@@ -1364,7 +1364,7 @@
     "image": "",
     "premium": false,
     "rank": 76,
-    "message_id": 1398049277162291271,
+    "message_id": 1398797760584482906,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1375,7 +1375,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049886859169822
+    "leaderboard_message_id": 1398983375603236914
   },
   {
     "name": "L2 Shinsekai",
@@ -1390,7 +1390,7 @@
     "image": "",
     "premium": false,
     "rank": 68,
-    "message_id": 1398049278928093284,
+    "message_id": 1398797761226342411,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1401,7 +1401,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049912930697407
+    "leaderboard_message_id": 1398983407152664687
   },
   {
     "name": "L2 Pwner",
@@ -1416,7 +1416,7 @@
     "image": "",
     "premium": false,
     "rank": 60,
-    "message_id": 1398049297194287336,
+    "message_id": 1398797762497220689,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1427,7 +1427,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049960917995674
+    "leaderboard_message_id": 1398983449217470497
   },
   {
     "name": "L2 Lost World",
@@ -1442,7 +1442,7 @@
     "image": "",
     "premium": false,
     "rank": 49,
-    "message_id": 1398049297974689842,
+    "message_id": 1398797763445260360,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1453,7 +1453,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050014470865038
+    "leaderboard_message_id": 1398983496873279581
   },
   {
     "name": "L2 Dex",
@@ -1468,7 +1468,7 @@
     "image": "",
     "premium": false,
     "rank": 27,
-    "message_id": 1398049298914086993,
+    "message_id": 1398797764825186416,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1479,7 +1479,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050102555181217
+    "leaderboard_message_id": 1398983593031893006
   },
   {
     "name": "Light Of Elcadia",
@@ -1494,7 +1494,7 @@
     "image": "",
     "premium": false,
     "rank": 81,
-    "message_id": 1398049299841028216,
+    "message_id": 1398797782382411867,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -1505,7 +1505,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049864289488970
+    "leaderboard_message_id": 1398983350261256253
   },
   {
     "name": "L2 Avalon",
@@ -1520,7 +1520,7 @@
     "image": "",
     "premium": false,
     "rank": 12,
-    "message_id": 1398049300981743617,
+    "message_id": 1398797783376593099,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -1531,7 +1531,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050178237337745
+    "leaderboard_message_id": 1398983666000199691
   },
   {
     "name": "L2 Nemeziz",
@@ -1546,7 +1546,7 @@
     "image": "",
     "premium": false,
     "rank": 53,
-    "message_id": 1398049319772360724,
+    "message_id": 1398797784597008394,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1557,7 +1557,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049993000222831
+    "leaderboard_message_id": 1398983476086313041
   },
   {
     "name": "La Era de Einhasad",
@@ -1572,7 +1572,7 @@
     "image": "",
     "premium": false,
     "rank": 79,
-    "message_id": 1398049320749629442,
+    "message_id": 1398797785469550753,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -1583,7 +1583,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049866835558494
+    "leaderboard_message_id": 1398983352769318975
   },
   {
     "name": "L2 Cygnus",
@@ -1598,7 +1598,7 @@
     "image": "",
     "premium": false,
     "rank": 21,
-    "message_id": 1398049321886154895,
+    "message_id": 1398797786605944953,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1609,7 +1609,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050127566082191
+    "leaderboard_message_id": 1398983616524058676
   },
   {
     "name": "L2 Destorus",
@@ -1624,7 +1624,7 @@
     "image": "",
     "premium": false,
     "rank": 25,
-    "message_id": 1398049322972741634,
+    "message_id": 1398797804536598612,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -1635,7 +1635,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050122037989561
+    "leaderboard_message_id": 1398983595481370695
   },
   {
     "name": "L2 Glory",
@@ -1650,7 +1650,7 @@
     "image": "",
     "premium": false,
     "rank": 39,
-    "message_id": 1398049323899424798,
+    "message_id": 1398797805513871440,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1661,7 +1661,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050046943035412
+    "leaderboard_message_id": 1398983542523826227
   },
   {
     "name": "L2 Nostalgia",
@@ -1676,7 +1676,7 @@
     "image": "",
     "premium": false,
     "rank": 55,
-    "message_id": 1398049342048174161,
+    "message_id": 1398797806067781664,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -1687,7 +1687,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049985614057693
+    "leaderboard_message_id": 1398983474517381240
   },
   {
     "name": "L2 Overworld",
@@ -1702,7 +1702,7 @@
     "image": "",
     "premium": false,
     "rank": 59,
-    "message_id": 1398049342924787776,
+    "message_id": 1398797806994587678,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1713,7 +1713,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049962020835429
+    "leaderboard_message_id": 1398983450270240870
   },
   {
     "name": "L2 Rehab",
@@ -1728,7 +1728,7 @@
     "image": "",
     "premium": false,
     "rank": 62,
-    "message_id": 1398049344447320144,
+    "message_id": 1398797807405764661,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1739,7 +1739,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049938427871329
+    "leaderboard_message_id": 1398983440686383266
   },
   {
     "name": "L2 Frenzy",
@@ -1754,7 +1754,7 @@
     "image": "",
     "premium": false,
     "rank": 37,
-    "message_id": 1398049345340833964,
+    "message_id": 1398797826586054818,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1765,7 +1765,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050066811322369
+    "leaderboard_message_id": 1398983544050683935
   },
   {
     "name": "L2 Best",
@@ -1780,7 +1780,7 @@
     "image": "",
     "premium": false,
     "rank": 16,
-    "message_id": 1398049346020315251,
+    "message_id": 1398797828272291991,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -1791,7 +1791,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050156078825531
+    "leaderboard_message_id": 1398983642130415729
   },
   {
     "name": "Exilium World",
@@ -1806,7 +1806,7 @@
     "image": "",
     "premium": false,
     "rank": 6,
-    "message_id": 1398049347022749737,
+    "message_id": 1398797829773856839,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -1817,7 +1817,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050204141490447
+    "leaderboard_message_id": 1398983688779206769
   },
   {
     "name": "L2 Out Of Control",
@@ -1832,7 +1832,7 @@
     "image": "",
     "premium": false,
     "rank": 57,
-    "message_id": 1398049368057315420,
+    "message_id": 1398797831527202937,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -1843,7 +1843,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398049964650795110
+    "leaderboard_message_id": 1398983452191227986
   },
   {
     "name": "L2 Sudamerica",
@@ -1858,7 +1858,7 @@
     "image": "",
     "premium": false,
     "rank": 71,
-    "message_id": 1398049369118212290,
+    "message_id": 1398797834546970746,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1869,7 +1869,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049909755875328
+    "leaderboard_message_id": 1398983402459234364
   },
   {
     "name": "L2 Chill",
@@ -1884,7 +1884,7 @@
     "image": "",
     "premium": false,
     "rank": 19,
-    "message_id": 1398049369739231272,
+    "message_id": 1398797836228886712,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": null,
@@ -1895,7 +1895,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050148080160859
+    "leaderboard_message_id": 1398983619439235103
   },
   {
     "name": "L2 Ketra Wars",
@@ -1910,7 +1910,7 @@
     "image": "",
     "premium": false,
     "rank": 46,
-    "message_id": 1398049370372313229,
+    "message_id": 1398797838095220888,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -1921,7 +1921,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050020971778118
+    "leaderboard_message_id": 1398983517156933744
   },
   {
     "name": "L2 Amerika",
@@ -1936,7 +1936,7 @@
     "image": "",
     "premium": false,
     "rank": 10,
-    "message_id": 1398049370598932713,
+    "message_id": 1398797856839696465,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1947,7 +1947,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050180095279134
+    "leaderboard_message_id": 1398983667862470738
   },
   {
     "name": "L2 Battle Club",
@@ -1962,7 +1962,7 @@
     "image": "",
     "premium": false,
     "rank": 15,
-    "message_id": 1398049390110838784,
+    "message_id": 1398797857607127123,
     "auto_farm": true,
     "buff_store": null,
     "custom_events": null,
@@ -1973,7 +1973,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050157790105610
+    "leaderboard_message_id": 1398983643762004039
   },
   {
     "name": "L2 Moon Land",
@@ -1988,7 +1988,7 @@
     "image": "",
     "premium": false,
     "rank": 52,
-    "message_id": 1398049391209615455,
+    "message_id": 1398797859377123414,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -1999,7 +1999,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049994673618965
+    "leaderboard_message_id": 1398983477319176192
   },
   {
     "name": "L2 Scryde",
@@ -2014,7 +2014,7 @@
     "image": "",
     "premium": false,
     "rank": 67,
-    "message_id": 1398049392275226787,
+    "message_id": 1398797860312449238,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -2025,7 +2025,7 @@
     "global_gk": null,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049933461946369
+    "leaderboard_message_id": 1398983408604020771
   },
   {
     "name": "L2 Euro Pvp",
@@ -2040,7 +2040,7 @@
     "image": "",
     "premium": false,
     "rank": 34,
-    "message_id": 1398049393365745755,
+    "message_id": 1398797860866232322,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -2051,7 +2051,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050069655195728
+    "leaderboard_message_id": 1398983566775422996
   },
   {
     "name": "Flauron",
@@ -2066,7 +2066,7 @@
     "image": "",
     "premium": false,
     "rank": 7,
-    "message_id": 1398049394317594664,
+    "message_id": 1398797862367789067,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -2077,7 +2077,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050202740461628
+    "leaderboard_message_id": 1398983688192131082
   },
   {
     "name": "Viranium",
@@ -2092,7 +2092,7 @@
     "image": "",
     "premium": false,
     "rank": 84,
-    "message_id": 1398049395059982357,
+    "message_id": 1398797883389776049,
     "auto_farm": null,
     "buff_store": null,
     "custom_events": null,
@@ -2103,7 +2103,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049859495264299
+    "leaderboard_message_id": 1398983346528321606
   },
   {
     "name": "L2 Damage",
@@ -2118,7 +2118,7 @@
     "image": "",
     "premium": false,
     "rank": 23,
-    "message_id": 1398049416308592842,
+    "message_id": 1398797884132032706,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -2129,7 +2129,7 @@
     "global_gk": true,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050125594497172
+    "leaderboard_message_id": 1398983614695473242
   },
   {
     "name": "L2 Aden Land",
@@ -2144,7 +2144,7 @@
     "image": "",
     "premium": false,
     "rank": 8,
-    "message_id": 1398049416887271577,
+    "message_id": 1398797885155573814,
     "auto_farm": true,
     "buff_store": true,
     "custom_events": true,
@@ -2155,7 +2155,7 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": true,
-    "leaderboard_message_id": 1398050182012338300
+    "leaderboard_message_id": 1398983669774815284
   },
   {
     "name": "L2 Mad",
@@ -2170,7 +2170,7 @@
     "image": "",
     "premium": false,
     "rank": 51,
-    "message_id": 1398049417575006318,
+    "message_id": 1398797886564859984,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": null,
@@ -2181,7 +2181,7 @@
     "global_gk": true,
     "multi_server": true,
     "gm_shop": true,
-    "leaderboard_message_id": 1398049995352965292
+    "leaderboard_message_id": 1398983495098962043
   },
   {
     "name": "Mithril Mines",
@@ -2189,14 +2189,14 @@
     "style": "craft server",
     "rates": "100/100/1/1",
     "spoil": "1",
-    "votes": 0,
+    "votes": 1,
     "website": "https://mithrilmines.eu/",
     "discord": "https://discord.com/invite/z9HPC75K6R",
     "thumbnail": "https://cdn.discordapp.com/attachments/1392827784132562998/1398043283623641330/L2_Mithril_Mines_Premium.jpg?ex=6883ecc5&is=68829b45&hm=481f964efa7cb95dd4e06a5b9b9671b0c630e689333a8afb81f451ce8460b53d&",
     "image": "https://cdn.discordapp.com/attachments/1392827784132562998/1398043240933884065/Mithril_Mines_Banner.png?ex=6883ecbb&is=68829b3b&hm=6f574bf8b24de82d5b57bb6078c95c7184d04d821868b0174f1eb0e7b4dd18a6&",
     "premium": true,
     "rank": 83,
-    "message_id": 1398049418141503581,
+    "message_id": 1398797887638339584,
     "auto_farm": null,
     "buff_store": true,
     "custom_events": true,
@@ -2207,6 +2207,6 @@
     "global_gk": null,
     "multi_server": null,
     "gm_shop": null,
-    "leaderboard_message_id": 1398050230812803192
+    "leaderboard_message_id": 1398983715878731869
   }
 ]
