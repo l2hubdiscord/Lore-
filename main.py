@@ -35,10 +35,12 @@ async def on_ready():
     print("🔁 Ξαναφορτώθηκαν τα κουμπιά των servers.")
 
 async def load_all_cogs():
-    await bot.load_extension("cogs.vote")
-    await bot.load_extension("cogs.leaderboard")
-    await bot.load_extension("cogs.admin")
-    await bot.load_extension("cogs.tickets")
+    for cog in ["cogs.vote", "cogs.leaderboard", "cogs.admin", "cogs.tickets"]:
+        try:
+            await bot.load_extension(cog)
+            print(f"✅ Loaded cog: {cog}")
+        except Exception as e:
+            print(f"❌ Failed to load {cog}: {e}")
 
 
 if __name__ == "__main__":
